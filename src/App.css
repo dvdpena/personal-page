@@ -1,7 +1,39 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: row;
+  min-height: 100vh;
 }
 
+.NavBar{
+  background-color: #3465A4;
+  min-width: 5rem;
+}
+
+.progress {
+  height: 10px;
+  width: 90%;
+  background: #1da1f2;
+  box-shadow: 2px 14px 15px -7px rgba(30, 166, 250, 0.36);
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+.Details{
+  margin: 0;
+  background-color: #024417;
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+  padding: 2em;
+  min-height: 100;
+}
+
+.Content {
+  text-align: justify;
+  color:rgb(230, 235, 230)
+}
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,16 +45,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +60,4 @@
     transform: rotate(360deg);
   }
 }
+ */
