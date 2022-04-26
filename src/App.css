@@ -1,15 +1,19 @@
 .App {
   text-align: center;
-  display:flex;
+  display: flex;
   flex-direction: row;
   min-height: 100vh;
 }
 
-.NavBar{
+.NavBar {
   background-color: #3465A4;
 }
 
-
+.Details {
+  background-image: url('res/svgs/dark_background.jpg');
+  background-size: 100%;
+  flex-grow:1;
+}
 
 
 

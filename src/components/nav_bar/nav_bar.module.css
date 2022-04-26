@@ -16,8 +16,11 @@
     flex-direction: column;
     align-content: flex-start;
     align-items:center;
-    filter: opacity(100%);
     cursor: pointer;
+}
+
+.profile:hover{
+    background: #595e9e;
 }
 
 .item:hover{
@@ -28,7 +31,8 @@
 .img{
     max-width: 150px;
     border-radius: 50%;
-    padding : 0.5rem;
+    margin-top: 0.5rem;
+    border: 3px solid #d0d0d0;
 }
 
 .btn{
